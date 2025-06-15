@@ -1,0 +1,37 @@
+cd dev_ws
+
+cd src/articubot_one/
+
+git status
+
+git add .
+
+git status
+
+git commit -m "your message"
+
+if you have error: 
+    Author identity unknown
+
+    *** Please tell me who you are.
+
+    Run
+
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
+    to set your account's default identity.
+    Omit --global to set the identity only in this repository.
+
+    fatal: empty ident name (for <thaoton1910@ubuntu-2204-ros.localdomain>) not allowed
+
+run: git config --global user.name "Tôn Nữ Thanh Thảo"
+git config --global user.email "thaoton1910@gmail.com"
+
+git config --global --list 
+
+-> git commit -m "your message"
+
+git push
+
+
